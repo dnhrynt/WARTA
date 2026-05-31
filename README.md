@@ -1,59 +1,108 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# WARTA – School News Portal
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Overview
 
-## About Laravel
+WARTA is a web-based news portal developed for SMAN 1 Grabagan to facilitate the publication and dissemination of school-related information and news. The system provides a controlled content management workflow, ensuring that all published articles are reviewed and approved before becoming publicly accessible.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The platform supports administrators, registered school members, and public visitors through a role-based access system that maintains content quality and information reliability.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Objectives
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+* Provide a centralized platform for publishing school news and announcements.
+* Facilitate news submission by registered school members.
+* Ensure content quality through an administrative verification process.
+* Improve information dissemination within the school community.
 
-## Learning Laravel
+## Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### Public Access
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* View published news articles without login.
+* Browse news by category.
+* Read article details and announcements.
 
-## Laravel Sponsors
+### User Management
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+* User accounts are created and managed by administrators.
+* Access is restricted to authorized school members.
+* Secure authentication and login system.
 
-### Premium Partners
+### News Submission
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+* Registered users can create and submit news articles.
+* Draft and pending article management.
+* Article editing before publication.
 
-## Contributing
+### Content Verification
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+* Submitted articles enter a verification stage.
+* Administrators review and approve submitted content.
+* Only approved articles can be published and viewed publicly.
 
-## Code of Conduct
+### Category Management
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+* Create, update, and delete news categories.
+* Organize articles based on categories.
 
-## Security Vulnerabilities
+### Administrative Dashboard
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+* Manage users and roles.
+* Manage news categories.
+* Review submitted articles.
+* Publish or reject articles.
 
-## License
+## Workflow
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. Administrator creates user accounts.
+2. Registered users log in to the system.
+3. Users submit news articles.
+4. Articles are reviewed by the administrator.
+5. Approved articles are published.
+6. Published articles become accessible to the public.
+
+## Technology Stack
+
+* Backend: Laravel
+* Frontend: Blade Template Engine, Bootstrap
+* Database: MySQL
+* Authentication: Laravel Authentication
+* Version Control: Git & GitHub
+
+## System Screenshots
+
+### Login Page
+
+![Login](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### News Submission
+
+![News Submission](screenshots/submission.png)
+
+### News Verification
+
+![News Verification](screenshots/verification.png)
+
+
+## Development Role
+
+This project was developed independently, covering:
+
+* Requirement analysis
+* Database design
+* Backend development
+* Frontend development
+* Authentication and authorization
+* News verification workflow implementation
+* Testing and deployment
+
+## Project Status
+
+Completed.
+
+## Author
+
+Dina Hariyanti
